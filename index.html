@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assignment.assets/sun.png">
+        <link rel="stylesheet" href="assignment.assets/css/stylesheet.css">
+        <script src="assignment.assets/js/validation.js" defer></script> 
+        <title>Changing Places</title>
+    </head>
+    <body>
+        <main class="container">
+            <aside class="img-container">
+                <span class="d-flex text-fancy"><img src="assignment.assets/beach.png" alt="Beach Logo">Changing Places</span>
+            </aside>
+            <section class="welcome-area">
+                <h2 class="welcome-message">
+                    <div class="p-2">
+                        How about signing up and seeing what kind of random holiday destination you could get? Sign up <i>below</i> and see where you could end up
+                    </div>
+                </h2>
+                <section class="signup-form p-2">
+                    <header class="text-lg">Try it out!</header>
+                    <form action="post">
+                        <div class="d-grid">
+                            <div class="py-1 input">
+                                <label for="first-name">First Name</label>
+                                <input id="first-name">
+                            </div>
+                            <div class="py-1 input">
+                                <label for="last-name">Last Name</label>
+                                <input id="last-name">
+                            </div>
+                            <div class="py-1 input">
+                                <label for="email">Email*</label>
+                                <input id="email" type="email" required minlength="6">
+                            </div>
+                            <div class="py-1 input">
+                                <label for="phone-number">Phone Number</label>
+                                <input id="phone-number">
+                            </div>
+                            <div class="py-1 input">
+                                <label for="password">Password*</label>
+                                <input id="password" type="password" required minlength="6">
+                            </div>
+                            <div class="py-1 input">
+                                <label for="confirm-password">Confirm Password*</label>
+                                <input id="confirm-password" type="password" required minlength="6">
+                            </div>
+                            <span class="error-message text-error"></span>
+                            <div class="py-1">
+                                <button class="btn">Create Account</button>
+                            </div>
+                        </div>
+                    </form>
+                    <aside class="text-sm">Already have an account? <a href="www.youtube.com" class="link">Log in</a></aside>
+                </section>
+                <footer>
+                    <span class="text-sm">Copyright 2022 Gleeson All rights reserved. We may keep your data for an unspecified time. By viewing this message you agree with this Terms of Use.</span>
+                </footer>
+            </section>
+            
+        </main>
+    </body>
+</html>

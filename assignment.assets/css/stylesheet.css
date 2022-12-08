@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Enjelina';
+    src: url("assignment.assets/enjelina-font/EnjelinaDemo-VGzDZ.ttf");
+}
+
+:root{
+    --main-theme-color-one: #582222;
+    --main-theme-color-two: #c5c5c5;
+}
+
+/* Utility */
+.d-grid{
+    display: grid;
+}
+.d-flex{
+    display: flex;
+}
+.py-1{
+    padding: .5em 0 .5em 0;
+}
+.p-2{
+    padding: 2em;
+}
+.text-lg{
+    font-size: 30px;
+}
+.text-sm{
+    font-size: 12px;
+}
+.text-fancy{
+    font-family: "Enjelina";
+}
+.text-error{
+    color: yellow;
+}
+.btn{
+    padding: 3px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 1px #737373;
+}
+.link{
+    color: #737373;
+}
+
+/* Common */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    padding: 4px;
+    background-color: rgb(230, 95, 17);
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 0px; 
+    height: 100vh;
+}
+.input{
+    display: grid;
+    grid-template-columns: 20% 40%;
+}
+
+/* Specific */
+.welcome-area {
+    display: grid; 
+    grid-template-rows: .7fr 2fr .08fr;
+}
+
+.welcome-message{
+    background: linear-gradient(to right, #0b1c7b, #582222) right;    color: var(--main-theme-color-one, #582222);
+    height: 100%;
+    margin: 0px;
+    color: var(--main-theme-color-two, #c5c5c5);
+}
+.signup-form{
+    background-color: var(--main-theme-color-one, #582222);
+    color: var(--main-theme-color-two, #c5c5c5);
+}
+.create-sign-in{
+    background-color: var(--main-theme-color-two, #c5c5c5);
+    color: var(--main-theme-color-one, #582222);
+    height: 100%;
+    margin: 0px;
+    align-content: center;
+}
+.img-container{
+    background-image: url("/assignment.assets/holiday.jpg");
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.img-container span{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #ffe3718f;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.img-container span img{
+    height: 80px;
+}
